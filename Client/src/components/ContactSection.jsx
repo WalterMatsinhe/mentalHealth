@@ -199,7 +199,7 @@ const ContactSection = () => {
             duration={5}
             size={800}
             className="from-transparent via-primary to-primary"
-            borderWidth={5}
+            borderWidth={2}
           />
         </div>
       </div>

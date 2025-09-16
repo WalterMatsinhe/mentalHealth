@@ -64,7 +64,7 @@ const AboutSection = () => {
               {card.icon}
               <h4 className="font-semibold text-xl mb-2">{card.title}</h4>
               <p className="text-muted-foreground text-center">{card.desc}</p>
-              <BorderBeam duration={5 + idx * 2} size={300} className="from-transparent via-primary to-primary" borderWidth={5 + (idx === 0 ? 0 : 2)} />
+              <BorderBeam duration={5 + idx * 2} size={300} className="from-transparent via-primary to-primary" borderWidth={2} />
             </div>
           ))}
         </div>

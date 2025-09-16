@@ -2,6 +2,7 @@ import { ArrowDown } from "lucide-react";
 import React from "react";
 import { BoxReveal } from "@/components/magicui/box-reveal";
 import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button";
+import { Link } from "react-router-dom";
 
 
 const HeroSection = () => {
@@ -21,9 +22,12 @@ const HeroSection = () => {
             </p>
           </BoxReveal>
           <InteractiveHoverButton>
-            <a href="#contact" className="inline-block px-8 py-3  dark:bg-purple-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-600 dark:hover:bg-purple-700 transition-colors duration-200">
-              Get Support
-            </a>
+           <Link
+              className="inline-block px-8 py-3  dark:bg-purple-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-600 dark:hover:bg-purple-700 transition-colors duration-200"
+              to="/auth/register"
+            >
+              Get Started
+            </Link>
           </InteractiveHoverButton>
         </div>
         {/* Right Column (empty for now, add content here) */}

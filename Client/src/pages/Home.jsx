@@ -5,6 +5,7 @@ import HeroSection from '../components/HeroSection'
 import AboutSection from '../components/AboutSection'
 import Footer from '../components/Footer'
 import ContactSection from '../components/ContactSection'
+import { Link } from "react-router-dom";
 
 
 const Home = () => {

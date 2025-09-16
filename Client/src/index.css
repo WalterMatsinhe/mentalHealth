@@ -65,7 +65,7 @@
     /* Dark mode: pure black background */
     --background: 0 0% 0%;  /* black */
     --foreground: 262 50% 95%; /* light violet for text */
-    --card: 262 50% 12%;       /* slightly lighter than bg */
+    --card: 262 50% 95%;       /* slightly lighter than bg */
     --primary: 262 83% 70%;    /* bright violet accent */
     --primary-foreground: 0 0% 100%;
     --border: 262 83% 70%;     /* bright border */
